@@ -1,0 +1,71 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 0;
+  height: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #081b39;
+  color: white;
+}
+
+header p {
+  font-size: 24px;
+  font-family: "Circular Std Bold";
+}
+
+.container {
+  background: #081b39;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .icon {
+  display: -ms-grid;
+  display: grid;
+  width: 100vh;
+  height: 100vh;
+  margin-top: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ed145b;
+  color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 32px;
+}
+
+.container .icon img {
+  width: 60px;
+}
+
+.container p {
+  text-align: center;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
